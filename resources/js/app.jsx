@@ -1,8 +1,7 @@
-export default function App() {
-    return (
-      <div className="text-3xl font-bold text-blue-500">
-        Hello, Tailwind is working!
-      </div>
-    );
-  }
-  
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './components/App';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);
