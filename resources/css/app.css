@@ -1,2 +1,4 @@
 @import "tailwindcss";
 @source "../views";
+@import "tailwindcss/preflight";
+@tailwind utilities;
